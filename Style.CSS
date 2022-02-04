@@ -1,0 +1,33 @@
+#box1{
+
+    width: 250px;
+    height: 250px;
+    font-size: 50px;
+    text-align: center;
+    background-color: lightskyblue;
+
+    /*
+    animation: ADSlide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-delay: 0s;
+    animation-timing-function: linear;
+    */
+    animation: 3s linear 0s infinite running ADSlide;
+}
+
+
+
+/*@keyframes  ADSlide{
+    from{margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+@keyframes ADSlide{
+    100%{transform:rotatey(360deg)}
+}
+*/
+@keyframes ADSlide{
+    50%{(opacity: 0;)}
+}
